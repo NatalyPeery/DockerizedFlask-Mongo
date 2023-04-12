@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install -y docker.io
+#sudo apt-get update
+#sudo apt-get install -y docker.io
 git clone https://github.com/NatalyPeery/DockerizedFlask-Mongo.git
 cd DockerizedFlask-Mongo
 docker build -t flask-mongo .
