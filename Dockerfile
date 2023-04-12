@@ -6,7 +6,7 @@ FROM python:3.8-slim-buster
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY app.py /app/app.py
+COPY app.py /app/
 
 # Install the required packages
 RUN apt-get update && apt-get install -y \
